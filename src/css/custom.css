@@ -16,7 +16,6 @@
 
 .center{
   text-align: center;
-  align-content: center;
 }
 
 .left{
@@ -26,6 +25,21 @@
 .item-left{
   align-self: flex-end;
 }
+
+.center-element{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.spacie-row-xsm{ margin-top: 0.5%;}
+.spacie-row-sm{ margin-top: 2%;}
+.spacie-row-md{ margin-top: 5%;}
+.spacie-row-bg{ margin-top: 10%;}
+.spacie-row-xg{  margin-top: 20%;}
+
+
 .fs1-normal{
   font-size: xx-large;
   font-weight: normal;
@@ -79,6 +93,43 @@
   font-weight: lighter;
   font-family: 'Roboto', sans-serif;
 }
+
+.fs4-normal{
+  font-size: medium;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fs4-bold{
+  font-size: medium;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fs45-light{
+  font-size: small;
+  font-weight: lighter;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fs5-normal{
+  font-size: small;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fs5-bold{
+  font-size: small;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fs4-light{
+  font-size: medium;
+  font-weight: lighter;
+  font-family: 'Roboto', sans-serif;
+}
+
 
 .row {
   display: flex;
@@ -152,6 +203,14 @@ ul {
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .button-primary{
+    background-color: #fd7e13;
+    border: none;
+    text-align: center;
     display: inline-block;
     font-size: 16px;
   }
