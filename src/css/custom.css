@@ -196,6 +196,12 @@ ul {
     overflow-wrap: break-word;
   }
 
+  th{
+    width: 300px;
+    text-align: justify;
+    padding-right: 1%;
+    border-style: dotted;
+  }
   .button{
     background-color: #4CAF50; /* Green */
     border: none;
@@ -214,4 +220,13 @@ ul {
     display: inline-block;
     font-size: 16px;
   }
+
+  .footer {
+    position: fixed;
+    padding: 0px 0px 0px 0px;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/ 
+    height: 40px;
+}
 
